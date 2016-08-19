@@ -43,12 +43,12 @@ sudo aptitude update && sudo aptitude upgrade -y
 Install nodejs (current)
 https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
 
-//install pm2 
+###Install pm2 
 ```sh
 sudo npm install pm2 -g
 ```
 
-//setup a pm2 daemon for starting on boot
+###Setup a pm2 daemon for starting on boot
 ```sh
 sudo su -c "env PATH=$PATH:/usr/bin pm2 startup linux -u pi --hp /home/pi"
 ```
