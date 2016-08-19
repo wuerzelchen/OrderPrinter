@@ -7,9 +7,9 @@ const time = require('time');
 const fs = require('fs');
 const config = require('config');
 
-const apiKey = config.get('openDiningSettings.apiKey'); //"bb7e9dc2e7964011aff70ede8e2f1b130ed65ef9";
-const customerId = config.get('openDiningSettings.customerId'); //"5398c472f61e467a73ac9c6d";
-const customerSecret = config.get('openDiningSettings.customerSecret'); //"ab5fb2c156a7d6c43f2b08ba43a7fe67b22a07a5";
+const apiKey = config.get('openDiningSettings.apiKey');
+const customerId = config.get('openDiningSettings.customerId');
+const customerSecret = config.get('openDiningSettings.customerSecret');
 const opendiningHost = config.get('openDiningSettings.host');
 const opendiningPort = config.get('openDiningSettings.port');
 const opendiningPath = '/api/v1/restaurants/' + customerId + '/orders?secret=' + customerSecret + '&key=' + apiKey;
