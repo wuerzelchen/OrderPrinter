@@ -39,5 +39,8 @@ jspm_packages
 # local dev config
 local.json
 
+# production config file
+default.json
+
 #runtime files
 lastorder
