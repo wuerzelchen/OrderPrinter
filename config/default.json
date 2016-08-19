@@ -1,0 +1,10 @@
+{
+    // Customer module configs
+    "openDiningSettings": {
+        "apiKey": "",
+        "customerId": "",
+        "customerSecret": "",
+        "host": "opendining.net",
+        "port": 443
+    }
+}

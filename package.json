@@ -1,0 +1,21 @@
+{
+  "name": "OrderPrinter",
+  "version": "0.0.1",
+  "description": "The app for printing receipts",
+  "author": "Wolfgang Ladermann <wolfgang.ladermann@outlook.com>",
+  "contributors": [
+    {
+      "name": "Wolfgang Ladermann",
+      "email": "wolfgang.ladermann@outlook.com"
+    }
+  ],
+  "scripts": {
+    "start": "nodejs app.js"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "escpos": "*",
+    "time": "0.11.4",
+    "config": "1.21.0"
+  }
+}
