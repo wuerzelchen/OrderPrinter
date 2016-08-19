@@ -9,19 +9,21 @@ This repository gives you the opportunity to print your orders onto a ESC/POS co
 - SDFromater4
 	https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html
 
-Download end!
-
 #Setup
 ##Setup rpi with cable network
 1. scan network from your pc (pc needs to be in the same network as rpi)
 - install nmap
 - command in shell
-```nmap -sP 192.168.1.1-255```
+```sh
+nmap -sP 192.168.1.1-255
+```
 (if you have another network, use other network)
 connect via putty with (uname: pi, pw: raspberry)
 
 //add user to lp group to access the printer
+```sh
 sudo usermod -a -G lp pi
+```
 
 setup wifi: https://wiki.archlinux.org/index.php/WPA_supplicant
 skip to "Connecting with wpa_cli" part
@@ -32,7 +34,9 @@ Copy OrderPrinter folder to /home/pi/ via FileZilla (port 22 username and passwo
 ----------
 
 #Install
+```sh
 sudo aptitude update && sudo aptitude upgrade -y
+```
 
 Install nodejs (current)
 https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
