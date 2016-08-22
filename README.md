@@ -1,5 +1,5 @@
 # OrderPrinter
-This repository gives you the opportunity to print your orders onto a ESC/POS compatible thermal printer.
+This repository gives you the opportunity to print your orders onto a ESC/POS compatible thermal printer. It connects you to the OpenDining API and prints all incoming invoices for your restaurant.
 
 ##Download
 - Raspbian
