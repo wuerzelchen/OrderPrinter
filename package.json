@@ -14,7 +14,7 @@
   },
   "main": "app.js",
   "dependencies": {
-    "escpos": "*",
+    "escpos": "2.0.3",
     "time": "0.11.4",
     "config": "1.21.0"
   }
